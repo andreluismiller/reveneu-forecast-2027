@@ -1,0 +1,19 @@
+target: revenue
+frequency: MS
+commodities:
+  - cobre
+  - aluminio
+  - aco_carbono
+  - aco_eletrico_silicio
+  - oleo_isolante
+sentiment_aggregations:
+  news_count: sum
+  sentiment_weighted: mean
+  price_impact_weighted: mean
+feature_lags: [1, 2, 3, 6, 12]
+rolling_windows: [3, 6, 12]
+required_revenue_columns: [date, revenue]
+required_operations_columns: [date, volume_units, backlog, avg_sale_price]
+required_sentiment_columns: [date, commodity, news_count, sentiment_weighted, price_impact_weighted]
+required_forecast_columns: [date, commodity, price_p10, price_p50, price_p90]
+required_exposure_columns: [date, commodity, quantity]

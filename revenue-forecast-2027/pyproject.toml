@@ -1,0 +1,46 @@
+[project]
+name = "revenue-forecast-2027"
+version = "0.1.0"
+description = "Previsão mensal e anual de faturamento com sinais de commodities e notícias"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "joblib>=1.4",
+  "numpy>=2.1",
+  "openpyxl>=3.1",
+  "pandas>=2.2",
+  "pyarrow>=17",
+  "pydantic>=2.9",
+  "pydantic-settings>=2.6",
+  "python-dotenv>=1.0",
+  "pyyaml>=6.0",
+  "scikit-learn>=1.5",
+  "typer>=0.12",
+]
+
+[dependency-groups]
+dev = [
+  "ipykernel>=6.29",
+  "pytest>=8.3",
+  "pytest-cov>=5.0",
+  "ruff>=0.7",
+]
+
+[project.scripts]
+revenue-forecast = "revenue_forecast.cli:app"
+
+[build-system]
+requires = ["uv_build>=0.8,<0.9"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "revenue_forecast"
+module-root = "src"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

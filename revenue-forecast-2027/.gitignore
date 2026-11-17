@@ -1,0 +1,15 @@
+.venv/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+data/input/*
+data/processed/*
+artifacts/*
+outputs/*
+!data/input/.gitkeep
+!data/processed/.gitkeep
+!artifacts/.gitkeep
+!outputs/.gitkeep
