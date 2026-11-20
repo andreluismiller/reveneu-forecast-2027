@@ -27,7 +27,7 @@ Projeto de Data Science e Machine Learning para previsão mensal de faturamento 
 
 A premissa base diz respeito à complexidade da indústria e de seu mercado. O processo produtivo é majoritariamente manual; commodities e outros insumos refletem diretamente as flutuações do mercado internacional e, muitas vezes, são importados diretamente por negociações em moeda estrangeira. Poucas linhas de negócio originam milhares de SKUs. O público-alvo se divide em grupos distintos: clientes particulares têm necessidades, requisitos e modelos de negócio distintos de concessionárias, a exemplo da exigência de peças e componentes a pronta entrega, onerando a gestão do armazém.
 
-Isso faz com que a capacidade de planejar e antever mudanças seja imperativa à gestão eficiente e ao crescimento sustentável do negócio. Este projeto é um primeiro passo nessa direção. Seu objetivo é criar um modelo de dados capaz de realizar a previsão do faturamento mensal da empresa considerando um horizonte temporal de **12 meses**, acessível aos usuários via dashboard web que permite visualizar as previsões em três cenários distintos:
+Isso faz com que a capacidade de planejar e antever mudanças seja imperativa à gestão eficiente e ao crescimento sustentável do negócio. Este projeto é um primeiro passo nessa direção. Seu **objetivo é criar um modelo estatístico capaz de realizar a previsão do faturamento bruto mensal da empresa considerando um horizonte temporal de 12 meses**, acessível aos usuários via dashboard web que permite visualizar as previsões em três cenários distintos:
 
 - **Base ou planejado regular**;
 - **Otimista**;
