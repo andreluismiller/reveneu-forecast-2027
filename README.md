@@ -2,7 +2,7 @@
 
 Projeto de Data Science e Machine Learning para previsão mensal de faturamento de uma indústria de transformadores, combinando dados internos de operação e finanças com sinais externos de commodities, notícias, macroeconomia, clima e câmbio.
 
-> **Objetivo do produto:** disponibilizar previsões mensais de faturamento em diferentes cenários, mantendo rastreabilidade dos dados, validação temporal, controle de versões das previsões externas e uma interface web para consumo executivo.
+> **Objetivo do produto:** disponibilizar previsões mensais de faturamento/receita bruta em diferentes cenários, mantendo rastreabilidade dos dados, validação temporal, controle de versões das previsões externas e uma interface web para consumo executivo.
 
 ---
 
