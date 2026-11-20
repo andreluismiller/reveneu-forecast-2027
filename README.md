@@ -30,8 +30,8 @@ A premissa base diz respeito à complexidade da indústria e de seu mercado. O p
 Isso faz com que a capacidade de planejar e antever mudanças seja imperativa à gestão eficiente e ao crescimento sustentável do negócio. Este projeto é um primeiro passo nessa direção. Seu **objetivo é criar um modelo estatístico capaz de realizar a previsão do faturamento bruto mensal da empresa considerando um horizonte temporal de 12 meses**, acessível aos usuários via dashboard web que permite visualizar as previsões em três cenários distintos:
 
 - **Base ou planejado regular**;
-- **Otimista**;
-- **Pessimista**.
+- **Otimista** (+7% sobre planejado);
+- **Pessimista** (-7% sobre planejado).
 
 > **Nota técnica:** embora o produto executivo tenha horizonte principal de 12 meses, a arquitetura de dados suporta previsões externas superiores a esse período, permitindo margem operacional para atualização e construção dos cenários futuros.
 
